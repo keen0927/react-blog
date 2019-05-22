@@ -10,12 +10,13 @@ function Header() {
     <div>
       <header className={cx('header')}>
         <div className={cx('header-content')}>
+          <div className={cx('brand')}>
             <Link to="/">reactblog</Link>
-        </div>
-        <div className={cx('right')}>
+          </div>
+          <div className={cx('right')}>
             오른쪽
+          </div>            
         </div>
-
       </header>
     </div>
   )

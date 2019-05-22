@@ -1,0 +1,26 @@
+.footer {
+    background: olive;
+    height: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-display: column;
+
+    .brand {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .admin-login {
+        margin-top: 0.5rem;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: rgba(255,255,255,0.8);
+        cursor: pointer;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
